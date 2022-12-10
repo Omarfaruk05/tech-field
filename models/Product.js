@@ -28,12 +28,11 @@ const productSchema = mongoose.Schema(
       },
     ],
     price: {
-      type: Number,
+      type: String,
       required: true,
-      min: [0, "Price can't be negative."],
     },
     rating: {
-      type: Number,
+      type: String,
     },
     spec: [],
     createdAt: {
